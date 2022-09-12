@@ -5,7 +5,7 @@ const postSchema = new Schema({
     type: String,
     required: true,
   },
- body : {
+  body: {
     type: String,
     required: true,
     minLength: 2,

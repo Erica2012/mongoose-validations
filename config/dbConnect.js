@@ -11,4 +11,4 @@ async function dbConnect() {
     process.exit(1);
   }
 }
-module.exports = { dbConnect }
+module.exports = { dbConnect };

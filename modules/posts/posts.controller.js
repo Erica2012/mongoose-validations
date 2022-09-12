@@ -15,3 +15,5 @@ exports.createPost = async (req, res) => {
 
   res.status(201).json({ post });
 };
+
+
